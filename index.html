@@ -6,13 +6,17 @@
     <title>Mahyar Gholizadeh - Portfolio</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; color: #333; }
-        header { background-color: #00A693; color: white; padding: 20px; text-align: center; font-size: 24px; }
-        nav { display: flex; justify-content: center; background-color: #00796B; padding: 10px; }
-        nav a { color: white; text-decoration: none; padding: 10px 20px; font-size: 18px; }
-        nav a:hover { background-color: #005F56; }
-        .container { width: 80%; margin: auto; padding: 20px; }
-        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        footer { text-align: center; padding: 10px; background-color: #00796B; color: white; }
+        header { background-color: #00A693; color: white; padding: 20px; text-align: center; font-size: 28px; font-weight: bold; }
+        nav { display: flex; justify-content: center; background-color: #00796B; padding: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); }
+        nav a { color: white; text-decoration: none; padding: 15px 25px; font-size: 18px; font-weight: bold; transition: 0.3s; }
+        nav a:hover { background-color: #005F56; border-radius: 5px; }
+        .container { width: 90%; max-width: 1200px; margin: auto; padding: 30px; }
+        .section { background: white; padding: 25px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); transition: 0.3s; }
+        .section:hover { transform: translateY(-5px); }
+        h2 { color: #00796B; }
+        .btn { display: inline-block; padding: 10px 20px; margin-top: 10px; background-color: #00A693; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background-color: #00796B; }
+        footer { text-align: center; padding: 15px; background-color: #00796B; color: white; font-size: 14px; }
     </style>
 </head>
 <body>
@@ -25,24 +29,24 @@
     </nav>
     <div class="container">
         <div id="about" class="section">
-            <h2>About Me</h2>
-            <p>I am Mahyar Gholizadeh, an enthusiastic researcher and engineer specializing in **Image Processing, Machine Learning, and Artificial Intelligence**. With a strong academic background in **Electrical and Computer Engineering**, I have dedicated my studies and professional journey to advancing computer vision and deep learning techniques for medical applications.</p>
+            <h2>About Me</h2><p>I am Mahyar Gholizadeh, an enthusiastic researcher and engineer specializing in **Image Processing, Machine Learning, and Artificial Intelligence**. With a strong academic background in **Electrical and Computer Engineering**, I have dedicated my studies and professional journey to advancing computer vision and deep learning techniques for medical applications.</p>
             <p>I hold a **Master’s degree** from *Babol Noshirvani University of Technology*, where I worked on applying machine learning algorithms to medical imaging, specifically in **MRI-based diagnosis of muscle rupture**. My research has provided me with hands-on experience in **Python, MATLAB, OpenCV, TensorFlow, and PyTorch**.</p>
             <p>Beyond academics, I am an active member of **the Iranian Society of Machine Vision and Image Processing (ISMVIP)**, where I have led workshops and technical discussions on AI-driven image analysis. I am also passionate about **IoT, embedded systems, and data science**, constantly exploring new technologies that merge hardware and AI.</p>
             <p>Currently, I am looking forward to furthering my expertise by pursuing a Master’s program at a prestigious university, where I can contribute to cutting-edge research in **computer vision and biomedical engineering**.</p>
+        <a href="#resume" class="btn">View My Resume</a>
         </div>
         <div id="resume" class="section">
             <h2>Resume</h2>
-            <p><a href="Mahyar Gholizadeh Curriculum Vitae 1.pdf" download>Download My Resume (PDF)</a></p>
+            <p><a href="Mahyar Gholizadeh Curriculum Vitae 1.pdf" class="btn" download>Download My Resume (PDF)</a></p>
         </div>
         <div id="projects" class="section">
             <h2>Projects</h2>
-            <p>Explore my GitHub: <a href="https://github.com/mahyarghd" target="_blank">GitHub Profile</a></p>
+            <p>Explore my work on GitHub: <a href="https://github.com/mahyarghd" target="_blank" class="btn">GitHub Profile</a></p>
         </div>
         <div id="contact" class="section">
             <h2>Contact</h2>
-            <p>Email: mahyarghd@gmail.com</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/mahyarghd" target="_blank">My LinkedIn</a></p>
+            <p>Email: <a href="mailto:mahyarghd@gmail.com">mahyarghd@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/mahyarghd" target="_blank" class="btn">My LinkedIn</a></p>
         </div>
     </div>
     <footer>&copy; 2025 Mahyar Gholizadeh. All rights reserved.</footer>
